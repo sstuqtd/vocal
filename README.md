@@ -1,4 +1,4 @@
 # vocal
-多人语音聊天框架
+澶氫汉璇煶鑱婂ぉ妗嗘灦
 
-论坛:http://abelkhan.com/forum.php?mod=forumdisplay&fid=40
+璁哄潧:http://abelkhan.com/forum.php?mod=forumdisplay&fid=40
