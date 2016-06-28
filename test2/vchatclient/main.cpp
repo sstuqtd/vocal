@@ -1,4 +1,4 @@
-#include "vchat.h"
+#include "vocal.h"
 #include <boost/thread.hpp>
 #include <boost/atomic.hpp>
 #include <iostream>
@@ -11,11 +11,12 @@
 SOCKET s;
 sockaddr_in raddr;
 
-void senddata(char * buf, int len){
+void senddata(short channelcount, char * buff, int len){
 	char sendbuf[8192];
 	memset(sendbuf, 0, 8192);
 	*((int*)sendbuf) = len;
-	memcpy(sendbuf + 4, buf, len);
+	*((short*)(sendbuf + 4)) = channelcount;
+	memcpy(sendbuf + 6, buff, len);
 	sendto(s, sendbuf, len + 4, 0, (sockaddr*)&raddr, sizeof(sockaddr_in));
 }
 

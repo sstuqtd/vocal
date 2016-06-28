@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vocal", "vocal\vocal.vcxproj", "{E02DA41D-41A5-4E45-9C9C-095678CC47BF}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vocalclient", "test\client\vocalclient.vcxproj", "{A61EBCE1-7331-418E-AAC8-94B818037408}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vocalserver", "test\server\vocalserver.vcxproj", "{15662FFC-AEF9-426A-A894-6E09DA9F2334}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vchatclient", "test2\vchatclient\vchatclient.vcxproj", "{423BA792-471C-4062-A3D6-A5FE7B30F33D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vchatserver", "test2\vchatserver\vchatserver.vcxproj", "{0E817F1B-8B0C-4769-8E68-56500E911F91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{15662FFC-AEF9-426A-A894-6E09DA9F2334}.Debug|x86.Build.0 = Debug|Win32
 		{15662FFC-AEF9-426A-A894-6E09DA9F2334}.Release|x86.ActiveCfg = Release|Win32
 		{15662FFC-AEF9-426A-A894-6E09DA9F2334}.Release|x86.Build.0 = Release|Win32
+		{423BA792-471C-4062-A3D6-A5FE7B30F33D}.Debug|x86.ActiveCfg = Debug|Win32
+		{423BA792-471C-4062-A3D6-A5FE7B30F33D}.Debug|x86.Build.0 = Debug|Win32
+		{423BA792-471C-4062-A3D6-A5FE7B30F33D}.Release|x86.ActiveCfg = Release|Win32
+		{423BA792-471C-4062-A3D6-A5FE7B30F33D}.Release|x86.Build.0 = Release|Win32
+		{0E817F1B-8B0C-4769-8E68-56500E911F91}.Debug|x86.ActiveCfg = Debug|Win32
+		{0E817F1B-8B0C-4769-8E68-56500E911F91}.Debug|x86.Build.0 = Debug|Win32
+		{0E817F1B-8B0C-4769-8E68-56500E911F91}.Release|x86.ActiveCfg = Release|Win32
+		{0E817F1B-8B0C-4769-8E68-56500E911F91}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

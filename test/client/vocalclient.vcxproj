@@ -52,7 +52,7 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\abelk\Documents\workspace\Vocal\thridparty\boost\stage\lib;C:\Users\abelk\Documents\workspace\Vocal\thridparty\portaudio\build\msvc\Win32\Debug;C:\Users\abelk\Documents\workspace\Vocal\Debug;C:\Users\abelk\Documents\workspace\Vocal\thridparty\speex\win32\VS2008\Debug;C:\Users\abelk\Documents\workspace\Vocal\thridparty\speexdsp\lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)\thridparty\boost\stage\lib;$(SolutionDir)\thridparty\portaudio\build\msvc\Win32\Debug;$(SolutionDir)\Debug;$(SolutionDir)\thridparty\speex\win32\VS2008\Debug;$(SolutionDir)\thridparty\speexdsp\lib</AdditionalLibraryDirectories>
       <AdditionalDependencies>vocal.lib;portaudio.lib;libspeex.lib;libspeexdsp.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>

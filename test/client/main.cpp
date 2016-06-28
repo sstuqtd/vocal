@@ -76,11 +76,11 @@ int main()
 	 
 	if (!inputd.empty())
 	{
-		_sound.setInputDevice(inputd.begin()->first);
+		_sound.setInputDevice(Pa_GetDefaultInputDevice());
 	}
 	if (!outputd.empty())
 	{
-		_sound.setOutputDevice(outputd.begin()->first);
+		_sound.setOutputDevice(Pa_GetDefaultOutputDevice());
 	}
 
 	_sound.sigCapture.connect([s](short channelcount, char * buff, int len){
